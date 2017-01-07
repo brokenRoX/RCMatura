@@ -103,12 +103,8 @@ p, .pg {
 }
 
 .cube {
-    display: inline-block;
     height: 100px;
     width: 100px;
-    background: url(cube.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
     float: right;
 }
 
