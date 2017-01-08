@@ -96,19 +96,38 @@ h1 {
     font-weight: bold;
 }
 
-p, .pg {
+p, .pg, .instructions {
     color: rgb(0, 84, 154);
     max-width: 600px;
     margin: 2rem auto;
 }
-
+.youtubear {
+  padding-bottom: 56.25%;
+  height: 0;
+  margin: 2rem auto;
+  position: relative;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+.instructions ol {
+  list-style: decimal;
+  list-style-position: inside;
+  padding: 2em 0;
+}
+.instructions ol li {
+  padding-top: 0.5em;
+}
 .cube {
     height: 100px;
     width: 100px;
     float: right;
 }
-
-
 strong {
     font-weight: bold;
 }
