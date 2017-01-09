@@ -122,6 +122,7 @@ iframe {
 }
 .instructions ol li {
   padding-top: 0.5em;
+  color: rgb(1, 149, 66);
 }
 .cube {
     height: 100px;
@@ -130,4 +131,25 @@ iframe {
 }
 strong {
     font-weight: bold;
+}
+table {
+  width: 100%;
+}
+table, th, td{
+border-style: solid;
+border-color: grey;
+border-width: 1px;
+padding: 0.5em 1em;
+color: rgb(1, 149, 66);
+}
+tr {
+
+}
+tr.timelapse td{
+  border-bottom-width: 3px;
+  border-bottom-color: rgb(239, 120, 120);
+}
+tr.lucas td {
+font-weight: bold;
+color: rgb(1, 43, 157);
 }
