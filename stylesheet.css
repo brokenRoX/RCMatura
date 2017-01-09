@@ -11,13 +11,10 @@ body {
     margin: 0;
 }
 
-
 main, nav ul {
     display: block;
-
     /* Center it */
     margin: 0 auto;
-
     /* Provide a maximum width*/
     max-width: 1024px;
     background-color: white;
@@ -26,7 +23,6 @@ main, nav ul {
 main {
     /* It needs some top padding to make sure that the menu doesn't cover the content */
     padding: 6rem 2rem 5rem;
-
     /* The content should always use all the available height when possible */
     min-height: 100%;
 }
@@ -51,7 +47,9 @@ nav ul li {
     text-align: center;
 }
 
+
 /* Give every link a right margin, except for the last one */
+
 nav ul li:not(:last-child) {
     margin-right: 0.5rem;
 }
@@ -66,7 +64,6 @@ nav ul li a {
 .current {
     background-color: rgb(171, 207, 255);
 }
-
 
 a:link {
     background-color: rgba(255, 182, 182, 0.9);
@@ -101,55 +98,76 @@ p, .pg, .instructions {
     max-width: 600px;
     margin: 2rem auto;
 }
+
 .youtubear {
-  padding-bottom: 56.25%;
-  height: 0;
-  margin: 2rem auto;
-  position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 2rem auto;
+    position: relative;
 }
+
 iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
 }
+
 .instructions ol {
-  list-style: decimal;
-  list-style-position: inside;
-  padding: 2em 0;
+    list-style: decimal;
+    list-style-position: inside;
+    padding: 1em 0;
 }
+
 .instructions ol li {
-  padding-top: 0.5em;
-  color: rgb(1, 149, 66);
+    padding-top: 0.5em;
+    color: rgb(1, 149, 66);
 }
+
+p.faqq {
+    font-size: 1.3rem;
+    margin-right: 5em;
+    font-weight: bold;
+    color: rgb(160, 10, 10);
+}
+
+p.faqa {
+    margin-left: 5em;
+    padding-bottom: 1em;
+}
+
 .cube {
     height: 100px;
     width: 100px;
     float: right;
 }
+
 strong {
     font-weight: bold;
 }
-table {
-  width: 100%;
-}
-table, th, td{
-border-style: solid;
-border-color: grey;
-border-width: 1px;
-padding: 0.5em 1em;
-color: rgb(1, 149, 66);
-}
-tr {
 
+table {
+    width: 100%;
 }
-tr.timelapse td{
-  border-bottom-width: 3px;
-  border-bottom-color: rgb(239, 120, 120);
+
+table, th, td {
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    padding: 0.5em 1em;
+    color: rgb(1, 149, 66);
 }
+
+tr {}
+
+tr.timelapse td {
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(239, 120, 120);
+}
+
 tr.lucas td {
-font-weight: bold;
-color: rgb(1, 43, 157);
+    font-weight: bold;
+    color: rgb(1, 43, 157);
 }
